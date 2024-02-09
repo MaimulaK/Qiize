@@ -27,11 +27,11 @@ async function quiz() {
   const prg = process.argv[2];
   const init = await read('./topics/start.json');
   const commonQuestions = await read('./topics/questions.json');
-  const theBestQuestions = tableTennis;
+  const theTennis = tableTennis;
   if (prg == 0) {
     await start(init, commonQuestions);
   } else {
-    await start(init, theBestQuestions);
+    await start(init, theTennis);
   }
 }
 
