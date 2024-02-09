@@ -13,7 +13,7 @@ async function start(start, topic) {
   const quiz = await inquirer.prompt(topic);
 
   if (topic === joke) {
-    console.log('На карте недостаточно средств! 😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀');
+    console.log('На карте недостато');
   } else {
     const score = Object.values(quiz).reduce(((acc, el) => acc + +el), 0);
     console.clear();
