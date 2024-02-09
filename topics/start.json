@@ -1,0 +1,6 @@
+{
+    "type": "input",
+    "name": "username",
+    "message": "Введи имя:"
+
+    }
